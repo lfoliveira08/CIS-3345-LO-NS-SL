@@ -20,58 +20,18 @@ The investigation is organized into five key objectives, detailed below with cor
 
 Objective: Recover and analyze chat logs from Discord and Steam to find messages containing insults and threats directed at Jane Doe.
 
-User Story	Investigative Issues & Tasks
+2. Video Artifacts
 
-Discord Logs: Recover all chat logs from Discord to find messages containing insults and threats.
+Objective: Locate and analyze the "meme" video file and its metadata to determine creation, distribution, and origin.
 
+3. Browser History & Downloads
 
+Objective: Analyze browser history and download artifacts to identify visits to file-sharing websites and evidence of video upload/download.
 
-Issue 1: Locate and Extract Discord Data : 
+4. USB Device History
 
+Objective: Analyze the Windows Registry for USB device history to determine if the "meme" video was transferred to an external drive.
 
+5. Overall Case Management
 
-- Navigate to C:\Users\John Smith\AppData\Roaming\Discord\. 
-
-
-- Copy core SQLite database files (.db files). 
-
-
-- Document file paths and cryptographic hashes in the GitHub Wiki. 
-
-
-
-Issue 2: Analyze Discord Databases : 
-
-
-
-- Use a SQLite browser to query and export messages to/from John Smith's user ID. 
-
-
-
-- Filter results by the specified date range (early to late October 2025) and keywords (insults, threats, Jane Doe's name). 
-
-
-- Export final filtered results as a .csv file.
-
-
-
-Steam Logs: Recover chat logs from Steam to identify communications related to harassment.
-
-
-
-Issue 1: Recover Steam Chat Logs : 
-
-
-
-- Search for \Steam\userdata\ directory. 
-
-
-- Locate John Smith's specific user ID folder and copy chat log files. 
-
-
-
-Issue 2: Review Steam Logs for Keywords : 
-
-
-
-- Open and use a "find" function to search for relevant keywords from the complaint.
+Objective: Create a detailed forensic timeline and produce a final, professional forensic report.
