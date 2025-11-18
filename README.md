@@ -10,8 +10,8 @@ We will focus our analysis on recovering and analyzing chat logs, locating an em
 👥 Team
 Role              Name
 Lead Investigator Seth 
-Scribe            Nicholas 
-Evidence Analyst  Luis 
+/Scribe            Nicholas 
+/Evidence Analyst  Luis 
 
 🔬 Investigation Plan: Key Objectives and User Stories
 The investigation is organized into five key objectives, detailed below with corresponding user stories and investigative issues/tasks.
