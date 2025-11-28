@@ -39,3 +39,13 @@ Objective: Analyze the Windows Registry for USB device history to determine if t
 Overall Case Management
 
 Objective: Create a detailed forensic timeline to correlate all recovered artifacts and produce a final, professional forensic report
+
+Project Status Update
+
+Milestone 1: Chat Application Artifacts
+| User Story | Issue | Status | Assignee(s) | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| **Discord Analysis** | **Locate and Extract Discord Data** | **Completed ✅** | Luis, Nicholas | Core Discord SQLite files were successfully extracted from the disk image and secured in the evidence folder. Cryptographic hashes have been calculated and documented in the Case Wiki to verify integrity. |
+| **Discord Analysis** | Analyze Discord Databases | **In Progress** | Seth, Nicholas | Next up: Opening the extracted database files and running SQL queries to filter user messages by date and keywords. |
+| **Steam Analysis** | Recover Steam Chat Logs | **To Do** | Luis | |
+| **Steam Analysis** | Review Steam Logs for Keywords | **To Do** | Seth, Nicholas | |
