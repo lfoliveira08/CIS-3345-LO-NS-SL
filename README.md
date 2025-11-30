@@ -46,5 +46,5 @@ Milestone 1: Chat Application Artifacts
 | :--- | :--- | :--- | :--- | :--- |
 | **Discord Analysis** | **Locate and Extract Discord Data** | **Completed ✅** | Luis, Nicholas | Core Discord SQLite files were successfully extracted from the disk image and secured in the evidence folder. Cryptographic hashes have been calculated and documented in the Case Wiki to verify integrity. |
 | **Discord Analysis** | Analyze Discord Databases | **In Progress** | Seth, Nicholas | Next up: Opening the extracted database files and running SQL queries to filter user messages by date and keywords. |
-| **Steam Analysis** | Recover Steam Chat Logs | **To Do** | Luis | |
+| **Steam Analysis** | Recover Steam Chat Logs | **Completed** | Luis | Search the disk image for the \Steam\userdata\ directory, locate John Smith's specific user ID folder and identify the log files containing chat history. Copy the chat log files to the evidence directory. |
 | **Steam Analysis** | Review Steam Logs for Keywords | **To Do** | Seth, Nicholas | |
