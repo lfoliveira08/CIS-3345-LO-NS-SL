@@ -57,5 +57,5 @@ Milestone 2: Video Artifacts
 | **Locate Video File** | **Search by Hash** | **Completed ✅** | Luis | Obtain the SHA-256 hash from the complaint and run a hash-based search to quickly locate the specific file on the disk image. |
 | **Video Metadata** | **Extract Video Metadata** | **In Progress** | Luis, Nicholas, Seth | Run ExifTool against the recovered video, export metadata to a text file, and analyze creation, modification, and access timestamps. |
 | **Video Metadata** | **Correlate Timestamps** | **To Do** | Nicholas, Seth | Update the master timeline with video timestamps and identify user activity (e.g., app usage) occurring immediately prior to creation. |
-| **Video Editing Evidence** | **Analyze Prefetch Files** | **To Do** | Luis, Seth | Parse C:\Windows\Prefetch to identify execution counts and last run times for specific video editing applications. |
-| **Video Editing Evidence** | **Examine UserAssist Key** | **To Do** | Luis, Nicholas | Mount NTUSER.DAT, decode UserAssist registry keys, and document run counts/dates for video editing software. |
+| **Video Editing Evidence** | **Analyze Prefetch Files** | **In Progress** | Luis, Seth | Parse C:\Windows\Prefetch to identify execution counts and last run times for specific video editing applications. |
+| **Video Editing Evidence** | **Examine UserAssist Key** | **In Progress** | Luis, Nicholas | Mount NTUSER.DAT, decode UserAssist registry keys, and document run counts/dates for video editing software. |
