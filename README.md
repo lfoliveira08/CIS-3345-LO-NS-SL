@@ -24,10 +24,10 @@ The repository is actively tracking tasks across all five investigation phases.
 
 | Metric | Status | Details |
 | :--- | :--- | :--- |
-| **Total Issues Tracked** | **58** | **41 Open** and **17 Closed**. The full list of issues can be reviewed on the [Issues Tab](https://github.com/lfoliveira08/CIS-3345-LO-NS-SL/issues). |
-| **Key Tasks Completed** | **4** | Locate and Extract Discord Data, Recover Steam Chat Logs, Carve for Video File, Search for Video File by Hash|
+| **Total Issues Tracked** | **80** | **31 Open** and **49 Closed**. The full list of issues can be reviewed on the [Issues Tab](https://github.com/lfoliveira08/CIS-3345-LO-NS-SL/issues). |
+| **Key Tasks Completed** | **10** | Locate and Extract Discord Data, Recover Steam Chat Logs, Carve for Video File, Search for Video File by Hash|
 | **Key Tasks In Progress** | **6** | Analyze Discord Databases, Review Steam Logs for Keywords, Extract Video Metadata, Correlate Video Timestamps, Analyze Prefetch Files,Examine UserAssist Registry Key |
-| **Key Tasks To Do** | **10** | This includes the remaining tasks across all Milestones (M1, M2, M3, M4, M5). |
+| **Key Tasks To Do** | **4** | This includes the remaining tasks across all Milestones (M1, M2, M3, M4, M5). |
 
 ---
 
@@ -42,9 +42,9 @@ The investigation is organized into five **Milestones**, with detailed status up
 | User Story | Issue | Status | Assignee(s) | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | **Discord Analysis** | **Locate and Extract Discord Data** | **Completed ✅** | Luis, Nicholas | Tasks include navigating to the Discord directory, identifying/copying core SQLite database files, creating an evidence directory, and documenting file paths and cryptographic hashes. |
-| **Discord Analysis** | **Analyze Discord Databases** | **In Progress** | Seth, Nicholas | Tasks include opening database files with a SQLite browser, running SQL queries to retrieve John Smith's messages, filtering by date (Oct 2025) and keywords, and exporting the final results as a `.csv` file. |
+| **Discord Analysis** | **Analyze Discord Databases** | **Completed ✅** | Seth, Nicholas | Tasks include opening database files with a SQLite browser, running SQL queries to retrieve John Smith's messages, filtering by date (Oct 2025) and keywords, and exporting the final results as a `.csv` file. |
 | **Steam Analysis** | **Recover Steam Chat Logs** | **Completed ✅** | Luis | Tasks include searching for the `\Steam\userdata\` directory, locating John Smith's specific user ID folder, and copying the chat log files to the evidence directory. |
-| **Steam Analysis** | **Review Steam Logs for Keywords** | **In Progress** | Seth, Nicholas | Tasks include opening recovered chat logs with a text editor, searching for relevant keywords from the complaint, and taking screenshots of any incriminating conversations found. |
+| **Steam Analysis** | **Review Steam Logs for Keywords** | **Completed ✅** | Seth, Nicholas | Tasks include opening recovered chat logs with a text editor, searching for relevant keywords from the complaint, and taking screenshots of any incriminating conversations found. |
 
 ### Objective 2: Video Artifacts (Milestone 2)
 
@@ -54,10 +54,10 @@ The investigation is organized into five **Milestones**, with detailed status up
 | :--- | :--- | :--- | :--- | :--- |
 | **Locate Video File** | **Carve for Video File** | **Completed ✅** | Luis, Seth | Tasks include running a file carving tool (Scalpel) on unallocated space, configuring it to search for video signatures, and reviewing the carved files to identify the video. |
 | **Locate Video File** | **Search for Video File by Hash** | **Completed ✅** | Luis | Tasks include obtaining the cryptographic hash (e.g., SHA-256) from the complaint and running a hash-based search to quickly locate the video file. |
-| **Video Metadata** | **Extract Video Metadata** | **In Progress** | Luis, Nicholas, Seth | Tasks include running ExifTool against the recovered video, exporting the metadata output, and examining creation, modification, and access timestamps. |
-| **Video Metadata** | **Correlate Video Timestamps** | **In Progress** | Nicholas, Seth | Tasks include adding the video file's timestamps to the master timeline spreadsheet and looking for user activity that occurred just before the video's creation. |
-| **Video Editing Software** | **Analyze Prefetch Files** | **In Progress** | Luis, Seth | Tasks include navigating to the `C:\Windows\Prefetch` directory, using a parser to examine files, and searching for prefetch files related to video editing applications. |
-| **Video Editing Software** | **Examine UserAssist Registry Key** | **In Progress** | Luis, Nicholas | Tasks include mounting the `NTUSER.DAT` hive, navigating to the UserAssist key, decoding the key data, and documenting programs, run counts, and execution dates. |
+| **Video Metadata** | **Extract Video Metadata** | **Completed ✅** | Luis, Nicholas, Seth | Tasks include running ExifTool against the recovered video, exporting the metadata output, and examining creation, modification, and access timestamps. |
+| **Video Metadata** | **Correlate Video Timestamps** | **Completed ✅** | Nicholas, Seth | Tasks include adding the video file's timestamps to the master timeline spreadsheet and looking for user activity that occurred just before the video's creation. |
+| **Video Editing Software** | **Analyze Prefetch Files** | **Completed ✅** | Luis, Seth | Tasks include navigating to the `C:\Windows\Prefetch` directory, using a parser to examine files, and searching for prefetch files related to video editing applications. |
+| **Video Editing Software** | **Examine UserAssist Registry Key** | **Completed ✅** | Luis, Nicholas | Tasks include mounting the `NTUSER.DAT` hive, navigating to the UserAssist key, decoding the key data, and documenting programs, run counts, and execution dates. |
 
 ### Objective 3: Browser History & Downloads (Milestone 3)
 
@@ -65,10 +65,10 @@ The investigation is organized into five **Milestones**, with detailed status up
 
 | User Story | Issue | Status | Assignee(s) | Notes/Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **Browser History Analysis** | **Recover Browser History** | **To Do** | Luis | Navigate to the browser's data directory for Chrome, Firefox, or Edge, and use a forensic parser to extract the history into a readable format. |
-| **Browser History Analysis** | **Filter History for Relevant Sites** | **To Do** | Seth, Nicholas | Review the parsed history for visits to social media, video-sharing, or file-upload sites and take screenshots of any relevant URLs and timestamps. |
-| **Download Artifacts** | **Analyze Download History** | **To Do** | Luis, Seth | Use a forensic tool to parse the browser's download history and search for entries related to the "meme" video file. |
-| **Download Artifacts** | **Investigate Browser Cache** | **To Do** | Luis, Seth | Analyze the browser cache directory for remnants of the video file itself or cached web pages related to video uploads or streaming. |
+| **Browser History Analysis** | **Recover Browser History** | **In progress** | Luis | Navigate to the browser's data directory for Chrome, Firefox, or Edge, and use a forensic parser to extract the history into a readable format. |
+| **Browser History Analysis** | **Filter History for Relevant Sites** | **In progress** | Seth, Nicholas | Review the parsed history for visits to social media, video-sharing, or file-upload sites and take screenshots of any relevant URLs and timestamps. |
+| **Download Artifacts** | **Analyze Download History** | **In progress** | Luis, Seth | Use a forensic tool to parse the browser's download history and search for entries related to the "meme" video file. |
+| **Download Artifacts** | **Investigate Browser Cache** | **In progress** | Luis, Seth | Analyze the browser cache directory for remnants of the video file itself or cached web pages related to video uploads or streaming. |
 
 ### Objective 4: USB Device History (Milestone 4)
 
@@ -76,8 +76,8 @@ The investigation is organized into five **Milestones**, with detailed status up
 
 | User Story | Issue | Status | Assignee(s) | Notes/Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **USB Registry Analysis** | **Extract and Analyze SYSTEM Registry Hive** | **To Do** | Luis | Extract the SYSTEM hive, open it with a registry viewer, navigate to `SYSTEM\CurrentControlSet\Enum\USBSTOR`, and document all connected USB devices. |
-| **USB Registry Analysis** | **Extract and Analyze NTUSER.DAT Registry Hive** | **To Do** | Luis | Extract the `NTUSER.DAT` hive, identify and document volume GUIDs from the `MountedDevices` key, and correlate these entries with the USBSTOR documentation. |
+| **USB Registry Analysis** | **Extract and Analyze SYSTEM Registry Hive** | **In progress** | Luis | Extract the SYSTEM hive, open it with a registry viewer, navigate to `SYSTEM\CurrentControlSet\Enum\USBSTOR`, and document all connected USB devices. |
+| **USB Registry Analysis** | **Extract and Analyze NTUSER.DAT Registry Hive** | **In progress** | Luis | Extract the `NTUSER.DAT` hive, identify and document volume GUIDs from the `MountedDevices` key, and correlate these entries with the USBSTOR documentation. |
 
 ### Objective 5: Overall Case Management (Milestone 5)
 
