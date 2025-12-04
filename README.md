@@ -25,9 +25,9 @@ The repository is actively tracking tasks across all five investigation phases.
 | Metric | Status | Details |
 | :--- | :--- | :--- |
 | **Total Issues Tracked** | **80** | **31 Open** and **49 Closed**. The full list of issues can be reviewed on the [Issues Tab](https://github.com/lfoliveira08/CIS-3345-LO-NS-SL/issues). |
-| **Key Tasks Completed** | **10** | Locate and Extract Discord Data, Recover Steam Chat Logs, Carve for Video File, Search for Video File by Hash|
-| **Key Tasks In Progress** | **6** | Analyze Discord Databases, Review Steam Logs for Keywords, Extract Video Metadata, Correlate Video Timestamps, Analyze Prefetch Files,Examine UserAssist Registry Key |
-| **Key Tasks To Do** | **4** | This includes the remaining tasks across all Milestones (M1, M2, M3, M4, M5). |
+| **Key Tasks Completed** | **10** | Locate and Extract Discord Data, Analyze Discord Databases, Recover Steam Chat Logs, Review Steam Logs for Keywords,  Carve for Video File, Search for Video File by Hash, Extract Video Metadata, Correlate Video Timestamps, Analyze Prefetch Files, Examine UserAssist Registry Key|
+| **Key Tasks In Progress** | **6** | Recover Browser History, Filter History for Relevant Sites, Analyze Download History, Investigate Browser Cache, Extract and Analyze SYSTEM Registry Hive, Extract and Analyze NTUSER.DAT Registry Hive|
+| **Key Tasks To Do** | **4** | This includes the remaining tasks across all Milestones (M3, M4, M5). |
 
 ---
 
