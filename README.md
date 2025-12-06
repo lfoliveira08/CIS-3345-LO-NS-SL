@@ -65,10 +65,10 @@ The investigation is organized into five **Milestones**, with detailed status up
 
 | User Story | Issue | Status | Assignee(s) | Notes/Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **Browser History Analysis** | **Recover Browser History** | **In progress** | Luis | Navigate to the browser's data directory for Chrome, Firefox, or Edge, and use a forensic parser to extract the history into a readable format. |
-| **Browser History Analysis** | **Filter History for Relevant Sites** | **In progress** | Seth, Nicholas | Review the parsed history for visits to social media, video-sharing, or file-upload sites and take screenshots of any relevant URLs and timestamps. |
-| **Download Artifacts** | **Analyze Download History** | **In progress** | Luis, Seth | Use a forensic tool to parse the browser's download history and search for entries related to the "meme" video file. |
-| **Download Artifacts** | **Investigate Browser Cache** | **In progress** | Luis, Seth | Analyze the browser cache directory for remnants of the video file itself or cached web pages related to video uploads or streaming. |
+| **Browser History Analysis** | **Recover Browser History** | **Completed ✅** | Luis | Navigate to the browser's data directory for Chrome, Firefox, or Edge, and use a forensic parser to extract the history into a readable format. |
+| **Browser History Analysis** | **Filter History for Relevant Sites** | **Completed ✅** | Seth, Nicholas | Review the parsed history for visits to social media, video-sharing, or file-upload sites and take screenshots of any relevant URLs and timestamps. |
+| **Download Artifacts** | **Analyze Download History** | **Completed ✅** | Luis, Seth | Use a forensic tool to parse the browser's download history and search for entries related to the "meme" video file. |
+| **Download Artifacts** | **Investigate Browser Cache** | **Completed ✅** | Luis, Seth | Analyze the browser cache directory for remnants of the video file itself or cached web pages related to video uploads or streaming. |
 
 ### Objective 4: USB Device History (Milestone 4)
 
