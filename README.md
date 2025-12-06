@@ -25,9 +25,9 @@ The repository is actively tracking tasks across all five investigation phases.
 | Metric | Status | Details |
 | :--- | :--- | :--- |
 | **Total Issues Tracked** | **86** | **0 Open** and **86 Closed**. The full list of issues can be reviewed on the [Issues Tab](https://github.com/lfoliveira08/CIS-3345-LO-NS-SL/issues). |
-| **Key Tasks Completed** | **16** | Locate and Extract Discord Data, Analyze Discord Databases, Recover Steam Chat Logs, Review Steam Logs for Keywords,  Carve for Video File, Search for Video File by Hash, Extract Video Metadata, Correlate Video Timestamps, Analyze Prefetch Files, Examine UserAssist Registry Key|
-| **Key Tasks In Progress** | **0** | Recover Browser History, Filter History for Relevant Sites, Analyze Download History, Investigate Browser Cache, Extract and Analyze SYSTEM Registry Hive, Extract and Analyze NTUSER.DAT Registry Hive|
-| **Key Tasks To Do** | **0** | This includes the remaining tasks across all Milestones (M3, M4, M5). |
+| **Key Tasks Completed** | **20** | This includes all the tasks across all Milestones (M1, M2, M3, M4, M5).|
+| **Key Tasks In Progress** | **0** |None|
+| **Key Tasks To Do** | **0** |None|
 
 ---
 
@@ -85,10 +85,10 @@ The investigation is organized into five **Milestones**, with detailed status up
 
 | User Story | Issue | Status | Assignee(s) | Notes/Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **Timeline Creation** | **Aggregate All Timestamps** | **To Do** | Nicholas | Create a master spreadsheet and manually enter data from all previous analysis steps, including timestamp, artifact type, source, and description. |
-| **Timeline Creation** | **Build a Narrative Timeline** | **To Do** | Nicholas, Seth | Sort the aggregated data chronologically and write a narrative that connects the events on the timeline to the allegations in the complaint. |
-| **Final Report** | **Draft the Findings and Conclusions** | **To Do** | Seth | Write a draft of the "Findings" section (describing the evidence found) and the "Conclusion" section (stating whether the evidence supports or disproves the allegations). |
-| **Final Report** | **Prepare the Final Report with Appendices** | **To Do** | Nicholas | Tasks include adding a table of contents, including all supporting evidence in an appendix, performing a final spell check, and saving the final report as a PDF. |
+| **Timeline Creation** | **Aggregate All Timestamps** | **Completed ✅** | Nicholas | Create a master spreadsheet and manually enter data from all previous analysis steps, including timestamp, artifact type, source, and description. |
+| **Timeline Creation** | **Build a Narrative Timeline** | **Completed ✅** | Nicholas, Seth | Sort the aggregated data chronologically and write a narrative that connects the events on the timeline to the allegations in the complaint. |
+| **Final Report** | **Draft the Findings and Conclusions** | **Completed ✅** | Seth | Write a draft of the "Findings" section (describing the evidence found) and the "Conclusion" section (stating whether the evidence supports or disproves the allegations). |
+| **Final Report** | **Prepare the Final Report with Appendices** | **Completed ✅** | Nicholas | Tasks include adding a table of contents, including all supporting evidence in an appendix, performing a final spell check, and saving the final report as a PDF. |
 
 ---
 
