@@ -24,10 +24,10 @@ The repository is actively tracking tasks across all five investigation phases.
 
 | Metric | Status | Details |
 | :--- | :--- | :--- |
-| **Total Issues Tracked** | **80** | **31 Open** and **49 Closed**. The full list of issues can be reviewed on the [Issues Tab](https://github.com/lfoliveira08/CIS-3345-LO-NS-SL/issues). |
-| **Key Tasks Completed** | **10** | Locate and Extract Discord Data, Analyze Discord Databases, Recover Steam Chat Logs, Review Steam Logs for Keywords,  Carve for Video File, Search for Video File by Hash, Extract Video Metadata, Correlate Video Timestamps, Analyze Prefetch Files, Examine UserAssist Registry Key|
-| **Key Tasks In Progress** | **6** | Recover Browser History, Filter History for Relevant Sites, Analyze Download History, Investigate Browser Cache, Extract and Analyze SYSTEM Registry Hive, Extract and Analyze NTUSER.DAT Registry Hive|
-| **Key Tasks To Do** | **4** | This includes the remaining tasks across all Milestones (M3, M4, M5). |
+| **Total Issues Tracked** | **86** | **0 Open** and **86 Closed**. The full list of issues can be reviewed on the [Issues Tab](https://github.com/lfoliveira08/CIS-3345-LO-NS-SL/issues). |
+| **Key Tasks Completed** | **16** | Locate and Extract Discord Data, Analyze Discord Databases, Recover Steam Chat Logs, Review Steam Logs for Keywords,  Carve for Video File, Search for Video File by Hash, Extract Video Metadata, Correlate Video Timestamps, Analyze Prefetch Files, Examine UserAssist Registry Key|
+| **Key Tasks In Progress** | **0** | Recover Browser History, Filter History for Relevant Sites, Analyze Download History, Investigate Browser Cache, Extract and Analyze SYSTEM Registry Hive, Extract and Analyze NTUSER.DAT Registry Hive|
+| **Key Tasks To Do** | **0** | This includes the remaining tasks across all Milestones (M3, M4, M5). |
 
 ---
 
@@ -76,8 +76,8 @@ The investigation is organized into five **Milestones**, with detailed status up
 
 | User Story | Issue | Status | Assignee(s) | Notes/Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **USB Registry Analysis** | **Extract and Analyze SYSTEM Registry Hive** | **In progress** | Luis | Extract the SYSTEM hive, open it with a registry viewer, navigate to `SYSTEM\CurrentControlSet\Enum\USBSTOR`, and document all connected USB devices. |
-| **USB Registry Analysis** | **Extract and Analyze NTUSER.DAT Registry Hive** | **In progress** | Luis | Extract the `NTUSER.DAT` hive, identify and document volume GUIDs from the `MountedDevices` key, and correlate these entries with the USBSTOR documentation. |
+| **USB Registry Analysis** | **Extract and Analyze SYSTEM Registry Hive** | **Completed ✅** | Luis, Nicholas | Extract the SYSTEM hive, open it with a registry viewer, navigate to `SYSTEM\CurrentControlSet\Enum\USBSTOR`, and document all connected USB devices. |
+| **USB Registry Analysis** | **Extract and Analyze NTUSER.DAT Registry Hive** | **Completed ✅** | Luis, Seth | Extract the `NTUSER.DAT` hive, identify and document volume GUIDs from the `MountedDevices` key, and correlate these entries with the USBSTOR documentation. |
 
 ### Objective 5: Overall Case Management (Milestone 5)
 
