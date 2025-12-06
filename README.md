@@ -43,7 +43,7 @@ The investigation is organized into five **Milestones**, with detailed status up
 | :--- | :--- | :--- | :--- | :--- |
 | **Discord Analysis** | **Locate and Extract Discord Data** | **Completed ✅** | Luis, Nicholas | Tasks include navigating to the Discord directory, identifying/copying core SQLite database files, creating an evidence directory, and documenting file paths and cryptographic hashes. |
 | **Discord Analysis** | **Analyze Discord Databases** | **Completed ✅** | Seth, Nicholas | Tasks include opening database files with a SQLite browser, running SQL queries to retrieve John Smith's messages, filtering by date (Oct 2025) and keywords, and exporting the final results as a `.csv` file. |
-| **Steam Analysis** | **Recover Steam Chat Logs** | **Completed ✅** | Luis | Tasks include searching for the `\Steam\userdata\` directory, locating John Smith's specific user ID folder, and copying the chat log files to the evidence directory. |
+| **Steam Analysis** | **Recover Steam Chat Logs** | **Completed ✅** | Luis, Nicholas | Tasks include searching for the `\Steam\userdata\` directory, locating John Smith's specific user ID folder, and copying the chat log files to the evidence directory. |
 | **Steam Analysis** | **Review Steam Logs for Keywords** | **Completed ✅** | Seth, Nicholas | Tasks include opening recovered chat logs with a text editor, searching for relevant keywords from the complaint, and taking screenshots of any incriminating conversations found. |
 
 ### Objective 2: Video Artifacts (Milestone 2)
@@ -53,8 +53,8 @@ The investigation is organized into five **Milestones**, with detailed status up
 | User Story | Issue | Status | Assignee(s) | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | **Locate Video File** | **Carve for Video File** | **Completed ✅** | Luis, Seth | Tasks include running a file carving tool (Scalpel) on unallocated space, configuring it to search for video signatures, and reviewing the carved files to identify the video. |
-| **Locate Video File** | **Search for Video File by Hash** | **Completed ✅** | Luis | Tasks include obtaining the cryptographic hash (e.g., SHA-256) from the complaint and running a hash-based search to quickly locate the video file. |
-| **Video Metadata** | **Extract Video Metadata** | **Completed ✅** | Luis, Nicholas, Seth | Tasks include running ExifTool against the recovered video, exporting the metadata output, and examining creation, modification, and access timestamps. |
+| **Locate Video File** | **Search for Video File by Hash** | **Completed ✅** | Nicholas | Tasks include obtaining the cryptographic hash (e.g., SHA-256) from the complaint and running a hash-based search to quickly locate the video file. |
+| **Video Metadata** | **Extract Video Metadata** | **Completed ✅** | Nicholas, Seth | Tasks include running ExifTool against the recovered video, exporting the metadata output, and examining creation, modification, and access timestamps. |
 | **Video Metadata** | **Correlate Video Timestamps** | **Completed ✅** | Nicholas, Seth | Tasks include adding the video file's timestamps to the master timeline spreadsheet and looking for user activity that occurred just before the video's creation. |
 | **Video Editing Software** | **Analyze Prefetch Files** | **Completed ✅** | Luis, Seth | Tasks include navigating to the `C:\Windows\Prefetch` directory, using a parser to examine files, and searching for prefetch files related to video editing applications. |
 | **Video Editing Software** | **Examine UserAssist Registry Key** | **Completed ✅** | Luis, Nicholas | Tasks include mounting the `NTUSER.DAT` hive, navigating to the UserAssist key, decoding the key data, and documenting programs, run counts, and execution dates. |
