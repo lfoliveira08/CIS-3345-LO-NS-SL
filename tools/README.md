@@ -51,7 +51,20 @@ Tools used to analyze system hives and web activity.
     * **Usage:** Extracting history from Chrome, Firefox, or Edge.
     * **Specific Task:** Recovering visited URLs (social media, file sharing) and analyzing download history/cache for video file remnants.
 
-## 5. Reporting & Management
+## 5. 🛠️ Custom Automation Scripts
+* **Tools:** Python 3.x, Pandas, SQLite3
+
+To enhance efficiency and simulate a realistic environment, the following custom scripts were developed by the team:
+
+* **scripts/generate_evidence.py**
+    * **Purpose:** Generates a mock messages.db Discord database populated with background noise and specific incriminating evidence timestamps.
+    * **Usage:** python scripts/generate_evidence.py
+
+* **notebooks/01_data_exploration.ipynb**
+  * **Purpose:** The primary analysis dashboard. It ingests raw evidence databases, normalizes timestamps, filters for harassment keywords, and exports findings to CSV.
+
+
+## 6. Reporting & Management
 Tools used for timeline creation and final documentation.
 
 * **Spreadsheet Software (Excel / Google Sheets)**
