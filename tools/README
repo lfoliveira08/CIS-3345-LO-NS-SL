@@ -1,1 +1,33 @@
+# Forensic Tools & Technologies
+**Project:** The Cyberbullying Case (CIS-3345)
+**Target System:** Windows 10 Desktop (John Smith)
 
+## Team Roles
+* **Lead Investigator:** Seth
+* **Scribe:** Nicholas
+* **Evidence Analyst:** Luis
+
+---
+
+## 1. Chat Application Analysis
+**Tools:** SQLite Database Browser, Text Editors (VS Code/Notepad++)
+
+### 📘 Discord Analysis (DB Browser for SQLite)
+To analyze `messages.db` found in `\AppData\Roaming\Discord\`, we use specific SQL queries to filter the noise and find relevant chat logs.
+
+**Query 1: Filter by Suspect & Date**
+*Filters for messages sent by John Smith in October 2025.*
+```sql
+SELECT 
+    datetime(timestamp / 1000, 'unixepoch') AS readable_date, 
+    author_id, 
+    channel_id, 
+    content 
+FROM 
+    messages 
+WHERE 
+    (author_id = 'PLACEHOLDER_USER_ID') -- Replace with Suspect ID
+    AND 
+    (timestamp >= 1727740800000 AND timestamp <= 1730419199000) -- Oct 1 - Oct 31, 2025
+ORDER BY 
+    timestamp ASC;
