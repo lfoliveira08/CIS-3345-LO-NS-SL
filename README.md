@@ -92,6 +92,12 @@ The investigation is organized into five **Milestones**, with detailed status up
 
 ---
 
+| Team contributor | Total story points contributed | Contribution % |
+| :--- | :---| :---|
+| Nicholas | 74 | 34% |
+| Luis | 72 | 33% |
+| Seth | 71 | 33% |
+
 ## 📜 License
 
 This project is licensed under the [MIT License](/lfoliveira08/CIS-3345-LO-NS-SL/blob/main/LICENSE).
