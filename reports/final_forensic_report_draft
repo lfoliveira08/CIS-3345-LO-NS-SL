@@ -1,1 +1,105 @@
+# 📄 Digital Forensic Investigation Report
+**Case Number:** CIS-3345-LO-NS-SL
+**Case Name:** The Cyberbullying Case
+**Date:** December 10, 2025
 
+---
+
+## 1. Executive Summary
+**Investigative Team:**
+* **Lead Investigator:** Seth
+* **Scribe:** Nicholas
+* **Evidence Analyst:** Luis
+
+**Subject:** John Smith
+**Target System:** Windows 10 Desktop
+**Incident Type:** Cyberbullying / Harassment
+
+### Case Overview
+The investigative team was tasked with analyzing a forensic disk image of a computer belonging to John Smith. The objective was to determine if the subject utilized this device to create, store, or distribute harassing content ("meme" videos) and menacing messages directed at a fellow student, Jane Doe.
+
+### Conclusion Summary
+Based on the analysis of chat logs, file metadata, and system artifacts, the evidence **[SUPPORTS / DOES NOT SUPPORT]** the allegations against John Smith. The following report details the specific artifacts recovered that link the user account to the creation and distribution of the harassing material.
+
+---
+
+## 2. Methodology & Tools
+The investigation followed standard forensic procedures, ensuring a proper chain of custody. The following tools were utilized to extract and analyze artifacts:
+
+* **Chat Analysis:** DB Browser for SQLite (Discord), Manual Parsing (Steam).
+* **File Recovery:** Scalpel (Carving), ExifTool (Metadata).
+* **System Analysis:** Registry Explorer (USB/UserAssist), PECmd (Prefetch).
+* **Browser Forensics:** BrowsingHistoryView.
+
+---
+
+## 3. Detailed Findings
+
+### 3.1. Chat Application Artifacts
+**Objective:** Recover communications containing threats or insults.
+
+#### **Discord Analysis**
+* **Source:** `C:\Users\John Smith\AppData\Roaming\Discord\messages.db`
+* **Findings:**
+    * SQL queries isolated messages sent by User ID `[INSERT USER ID]`.
+    * **[INSERT NUMBER]** messages were found containing keywords such as "Jane Doe", "meme", or "stupid".
+    * **Key Evidence:** On `[DATE]`, a message was sent stating: *"[QUOTE INCRAMINATING MESSAGE]"*.
+
+#### **Steam Chat Analysis**
+* **Source:** `\Steam\userdata\[ID]\config\chat.log`
+* **Findings:**
+    * Keyword searches identified references to the "meme" video.
+    * **Key Evidence:** A chat log from `[DATE]` confirms the subject shared a link to the video with user `[USERNAME]`.
+
+### 3.2. Video Artifacts ("The Meme")
+**Objective:** Prove creation and distribution of the video file.
+
+#### **File Recovery & Metadata**
+* **File Name:** `[VIDEO FILENAME.mp4]`
+* **Location:** Recovered from Unallocated Space / Found in `Documents`.
+* **Hash Verification:** The SHA-256 hash `[INSERT HASH]` **[MATCHED/DID NOT MATCH]** the hash provided in the complaint.
+* **ExifTool Metadata:**
+    * **Creation Date:** `[INSERT TIMESTAMP]`
+    * **Software Used:** `[e.g., Adobe Premiere / Lavf58.29.100]`
+
+#### **Program Execution (Prefetch & UserAssist)**
+* Analysis of `C:\Windows\Prefetch` confirmed that **[VIDEO EDITING SOFTWARE]** was executed **[NUMBER]** times.
+* The last execution occurred on `[DATE]`, which aligns with the video creation timestamp.
+
+### 3.3. Browser History & Online Activity
+**Objective:** Identify social media usage and file uploads.
+
+* **Browser:** [Chrome / Firefox]
+* **History:**
+    * The user visited **Discord Web** on `[DATE]`.
+    * The user visited a file-hosting site (`[URL]`) immediately after the video was created.
+* **Downloads/Cache:**
+    * Evidence of the file `[VIDEO NAME]` was found in the download history, indicating it may have been re-downloaded to check quality.
+
+### 3.4. USB Device History
+**Objective:** Determine if the video was moved to external storage.
+
+* **Registry Key:** `SYSTEM\CurrentControlSet\Enum\USBSTOR`
+* **Device Identified:** `[VENDOR] [PRODUCT] USB Device`
+* **Serial Number:** `[SERIAL NUMBER]`
+* **Connection Time:** The device was connected on `[DATE]`, shortly after the video creation, suggesting potential exfiltration/transfer.
+
+---
+
+## 4. Forensic Timeline
+*A chronological reconstruction of relevant events.*
+
+| Date & Time | Source | Event Description |
+| :--- | :--- | :--- |
+| 2025-10-XX 14:00 | Prefetch | Video Editing Software launched. |
+| 2025-10-XX 15:30 | File System | "meme_video.mp4" created. |
+| 2025-10-XX 15:45 | Discord | Message sent to User X: "Check this out." |
+| 2025-10-XX 16:00 | Registry | USB Device (Serial: XYZ) inserted. |
+
+---
+
+## 5. Appendices
+* **Appendix A:** Full SQL Query Results (.csv)
+* **Appendix B:** Screenshots of Steam Chat Logs
+* **Appendix C:** ExifTool Metadata Report
+* **Appendix D:** Chain of Custody Log
